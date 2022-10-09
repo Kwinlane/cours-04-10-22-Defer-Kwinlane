@@ -26,7 +26,27 @@ var myName = 'Kwinlane';
 var myCity = "Montpellier";
 console.log(`My name is ${myName}. My favorite city is ${myCity}`);
 
-et newVariable = 'Playing around with typeof.';
+let newVariable = 'Playing around with typeof.';
 console.log(typeof newVariable);
 newVariable = 1 ;
 console.log(typeof newVariable);
+
+let Cours='Dev';
+let Note=15;
+let Resultat= `Tu as eu ${Note} au devoir de ${Cours}`;
+
+var Note+=1 ;
+
+console.log(Note)
+
+
+
+let Cours='Dev';
+let Note=15;
+Note+=1 ;
+let Resultat= `Tu as eu ${Note} au devoir de ${Cours} !`;
+console.log(Resultat)
+console.log(typeof `${Resultat}`)
+
+
+
