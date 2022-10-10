@@ -21,3 +21,16 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 for (let i = 0; i < vacationSpots.length; i++ ){
   console.log('I would love to visit ' + vacationSpots[i]);
 }
+
+
+
+var bobsFollowers = ['Tom','Tim', 'Tommy', 'Timy'];
+var tinasFollowers = ['Tom', 'Tim', 'Jennifer'];
+var mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+     mutualFollowers.push(bobsFollowers[i])};
+  };
+};
