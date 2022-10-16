@@ -77,3 +77,6 @@ const plantNeedsWater = (day) => {
     return false;
   }
 };
+
+
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
